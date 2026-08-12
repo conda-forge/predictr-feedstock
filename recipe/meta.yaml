@@ -1,5 +1,5 @@
 {% set name = "predictr" %}
-{% set version = "0.1.30" %}
+{% set version = "0.1.32" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/predictr-{{ version }}.tar.gz
-  sha256: 5515d27318707adb0b9df564acf6e59d5e4a305f00e67d4440b8e42854d6d087
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/predictr-{{ version }}.tar.gz
+  sha256: 05da3b4834ef96e0514aa72a768b4e84fb574cbd88da3d3aed98bee1ff774e19
 
 build:
   number: 0
